@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  height: 80%;
+  /* background-color: aqua; */
+  margin-inline: auto;
+  display: flex;
+  box-shadow: 5px 10px 15px 5px darkgrey;
+}
+
+.leftside{
+  width: 40%;
+  border: 1px solid black;
+  
+}
+
+.imagebox img{
+  width: 100%;
+}
+
+.imagebox{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+  bottom: 20px;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.icon1, .icon2, .icon3, .icon4{
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.skills{
+  margin-top: 15px;
+}
+
+.skills1{
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.skills1 h3{
+  text-decoration: underline;
+
+}
+
+
+.progressbar{
+  background-color: rgb(66, 65, 65);
+  border-radius: 10px;
+}
+
+.progress{
+  background-color: teal;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.languages{
+  margin-top: 15px;
+}
+
+.language1{
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.language1 h3{
+  text-decoration: underline;
+}
+
+i{
+  color: teal;
+}
+
+
+.rightside{
+  width: 60%;
+  border: 1px solid black;
+}
+
+.rightside1{
+  margin-top: 10px;
+}
+
+
+.right_1{
+  display: flex;
+  gap: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.right_1 p{
+  text-decoration: underline;
+}
+
+.calendar{
+  color: teal;
+  display: flex;
+  gap: 10px;
+}
+
+.calendar span
+{
+  background-color: teal;
+  color: white;
+  border: 3px solid teal;
+  border-radius: 50px 20px;
+
+}
+
+
+.rightside2{
+  margin-top: 10px;
+}
+
+.right_2{
+  display: flex;
+  gap: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.right_2 p{
+text-decoration: underline;
+}
+
+
